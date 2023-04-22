@@ -148,7 +148,7 @@ SWEP.Primary.DefaultClip	= 180
 SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "9x19MM"
 
-SWEP.FireDelay = 60/700
+SWEP.FireDelay = 60/750
 SWEP.FireSound = "CW_KK_INS2_D_AKS74U_FIRE_SUPPRESSED"
 SWEP.FireSoundSuppressed = "CW_KK_INS2_D_AKS74U_FIRE_SUPPRESSED"
 SWEP.Recoil = 1.7

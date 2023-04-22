@@ -257,7 +257,7 @@ SWEP.Primary.DefaultClip	= 30*5
 SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "5.56x45MM"
 
-SWEP.FireDelay = 0.066666666666667
+SWEP.FireDelay = 60/650
 SWEP.FireSound = "CW_KK_INS2_M16A4_FIRE"
 SWEP.FireSoundSuppressed = "CW_KK_INS2_M16A4_FIRE_SUPPRESSED"
 SWEP.Recoil = 2.8025
