@@ -39,7 +39,7 @@ if CLIENT then
 	SWEP.AlternativePos = Vector(-1, 1, -2)
 	SWEP.AlternativeAng = Vector(0, 0, 0)
 
-	SWEP.IronsightPos = Vector(-2.06, -1, 0.1)
+	SWEP.IronsightPos = Vector(-1.87, -1, 0.1)
 	SWEP.IronsightAng = Vector(0, 0, 0)
 
 	SWEP.CustomizationMenuScale = 0.01
