@@ -218,7 +218,7 @@ SWEP.Slot = 0
 SWEP.SlotPos = 0
 SWEP.NormalHoldType = "ar2"
 SWEP.RunHoldType = "passive"
-SWEP.FireModes = {"auto", "semi"}
+SWEP.FireModes = {"auto", "semi", "2burst"}
 SWEP.Base = "cw_kk_ins2_base"
 SWEP.Category = "АН-94"
 
