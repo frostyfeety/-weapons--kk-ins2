@@ -177,13 +177,13 @@ SWEP.AttachmentDependencies = {
 	-- ["kk_ins2_scope_m40"] = {"kk_ins2_sights_base"},
 	-- ["kk_ins2_scope_mosin"] = {"kk_ins2_sights_base"},
 
-	["kk_ins2_cstm_cmore"] = {"kk_ins2_sights_cstm"},
-	["kk_ins2_cstm_barska"] = {"kk_ins2_sights_cstm"},
-	["kk_ins2_cstm_eotechxps"] = {"kk_ins2_sights_cstm"},
-	["kk_ins2_cstm_microt1"] = {"kk_ins2_sights_cstm"},
-	["kk_ins2_cstm_compm4s"] = {"kk_ins2_sights_cstm"},
-	["kk_ins2_cstm_acog"] = {"kk_ins2_sights_cstm"},
-	["kk_ins2_cstm_susat"] = {"kk_ins2_sights_cstm"},
+	--["kk_ins2_cstm_cmore"] = {"kk_ins2_sights_cstm"},
+	--["kk_ins2_cstm_barska"] = {"kk_ins2_sights_cstm"},
+	--["kk_ins2_cstm_eotechxps"] = {"kk_ins2_sights_cstm"},
+	--["kk_ins2_cstm_microt1"] = {"kk_ins2_sights_cstm"},
+	
+	--["kk_ins2_cstm_acog"] = {"kk_ins2_sights_cstm"},
+	--["kk_ins2_cstm_susat"] = {"kk_ins2_sights_cstm"},
 }
 
 SWEP.autoCenterExclusions = {
