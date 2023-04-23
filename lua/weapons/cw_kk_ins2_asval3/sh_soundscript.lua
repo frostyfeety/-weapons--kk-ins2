@@ -39,7 +39,7 @@ SWEP.Sounds = {
 		{time = 24/30, sound = "CW_KK_INS2_MINI14_MAGOUT"},
 		{time = 65/30, sound = "CW_KK_INS2_MINI14_MAGIN"},
 		{time = 91/30, sound = "CW_KK_INS2_MINI14_BOLTBACK"},
-		{time = 105/30, sound = "CW_KK_INS2_MINI14_BOLTRELEASE"},
+		{time = 100/30, sound = "CW_KK_INS2_MINI14_BOLTRELEASE"},
 	},
 	
 		base_reloadempty_ext = {
