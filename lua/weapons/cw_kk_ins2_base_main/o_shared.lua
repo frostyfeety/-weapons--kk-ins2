@@ -30,10 +30,10 @@ function SWEP:simulateRecoil()
 		end
 	end
 
-	if self.freeAimOn and not self.dt.BipodDeployed then -- we only want to add the 'roll' view shake when we're not using a bipod in free-aim mode
+	--[[if self.freeAimOn and not self.dt.BipodDeployed then -- we only want to add the 'roll' view shake when we're not using a bipod in free-aim mode
 		self.lastViewRoll = math.Clamp(self.lastViewRoll + self.Recoil * 0.5, 0, 15)
 		self.lastViewRollTime = UnPredictedCurTime() + FrameTime() * 3
-	end
+	end]]
 
 	self.lastShotTime = CurTime() + math.Clamp(self.FireDelay * 3, 0, 0.3) -- save the last time we shot
 

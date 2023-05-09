@@ -53,7 +53,7 @@ SWEP.AdminSpawnable		= false
 
 SWEP.TSGlass = Material("models/weapons/optics/lense_rt")
 
--- SWEP.NoFreeAim = true
+ SWEP.NoFreeAim = true
 SWEP.LuaViewmodelRecoil = false
 
 SWEP.KK_IGNORE_MAGSYS_TWEAK = true
@@ -240,8 +240,8 @@ function SWEP:IndividualThink_INS2() end
 // - animated sprint, near-wall holster, safety firemode holster transitions
 //-----------------------------------------------------------------------------
 
-local cvarFA = GetConVar("cw_freeaim")
-local cvarFAAC = GetConVar("cw_freeaim_autocenter")
+--local cvarFA = GetConVar("cw_freeaim")
+--local cvarFAAC = GetConVar("cw_freeaim_autocenter")
 local cvarSprint = CustomizableWeaponry_KK.ins2.conVars.main["cw_kk_ins2_sprint"]
 
 local shouldDrawCrosshair, fa
@@ -262,8 +262,8 @@ function SWEP:IndividualThink()
 	if CLIENT then
 		self.ViewModelMovementScale = self:scaleMovement(1, 1)
 
-		fa = cvarFA:GetInt()
-		fa = (fa == 1) and cvarFAAC:SetInt(fa)
+		--fa = cvarFA:GetInt()
+		--fa = (fa == 1) and cvarFAAC:SetInt(fa)
 		-- self.NoFreeAim = self:isAiming()
 
 		shouldDrawCrosshair = self.Owner:ShouldDrawLocalPlayer()
