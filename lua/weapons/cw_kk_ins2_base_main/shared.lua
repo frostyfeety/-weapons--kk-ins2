@@ -53,7 +53,7 @@ SWEP.AdminSpawnable		= false
 
 SWEP.TSGlass = Material("models/weapons/optics/lense_rt")
 
- SWEP.NoFreeAim = true
+ --SWEP.NoFreeAim = true
 SWEP.LuaViewmodelRecoil = false
 
 SWEP.KK_IGNORE_MAGSYS_TWEAK = true
