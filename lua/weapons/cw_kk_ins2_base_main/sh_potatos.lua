@@ -22,8 +22,8 @@ function SWEP:SetupDataTables()
 	self:NetworkVar("Entity", 0, "Potato")
 end
 
-local cvarFA = GetConVar("cw_freeaim")
-local cvarFAAC = GetConVar("cw_freeaim_autocenter")
+--local cvarFA = GetConVar("cw_freeaim")
+--local cvarFAAC = GetConVar("cw_freeaim_autocenter")
 
 local shouldDrawCrosshair, fa
 

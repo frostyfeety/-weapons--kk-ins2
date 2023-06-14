@@ -24,12 +24,12 @@ do
 	CustomizableWeaponry:addRegularSound("CW_KK_INS2_UNIVERSAL_LEANOUT", { "weapons/universal/uni_lean_out_01.wav", "weapons/universal/uni_lean_out_02.wav", "weapons/universal/uni_lean_out_03.wav", "weapons/universal/uni_lean_out_04.wav"})
 	CustomizableWeaponry:addRegularSound("CW_KK_INS2_UNIVERSAL_WEAPONLOWER", "weapons/universal/uni_weapon_lower_01.wav")
 
-	CustomizableWeaponry:addFireSound("CW_KK_INS2_KNIFE", "weapons/knife/knife_slash_01.wav", 1, 70, CHAN_WEAPON)
+	CustomizableWeaponry:addFireSound("CW_KK_INS2_KNIFE", "weapons/knife/knife_slash_01.wav", 1, 70, CHAN_STATIC)
 
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_GL_BEGINRELOAD", {"weapons/universal/uni_gl_beginreload_01.wav", "weapons/universal/uni_gl_beginreload_02.wav", "weapons/universal/uni_gl_beginreload_03.wav"})
 
 	// M203
-	CustomizableWeaponry:addFireSound("CW_KK_INS2_M203_FIRE", "weapons/m203/m203_fp.wav", 1, 105, CHAN_WEAPON)
+	CustomizableWeaponry:addFireSound("CW_KK_INS2_M203_FIRE", "weapons/m203/m203_fp.wav", 1, 105, CHAN_STATIC)
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_M203_CLOSEBARREL", "weapons/m203/handling/m203_closebarrel.wav")
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_M203_DESELECT", "weapons/m203/handling/m203_deselect.wav")
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_M203_EMPTY", "weapons/m203/handling/m203_empty.wav")
@@ -38,7 +38,7 @@ do
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_M203_SELECT", "weapons/m203/handling/m203_select.wav")
 
 	// GP30
-	CustomizableWeaponry:addFireSound("CW_KK_INS2_GP30_FIRE", "weapons/gp30/gp30_fp.wav", 1, 105, CHAN_WEAPON)
+	CustomizableWeaponry:addFireSound("CW_KK_INS2_GP30_FIRE", "weapons/gp30/gp30_fp.wav", 1, 105, CHAN_STATIC)
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_GP30_DESELECT", "weapons/gp30/handling/gp30_deselect.wav")
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_GP30_EMPTY", "weapons/gp30/handling/gp30_empty.wav")
 	CustomizableWeaponry:addReloadSound("CW_KK_INS2_GP30_INSERTGRENADE", {"weapons/gp30/handling/gp30_insertgrenade_01.wav", "weapons/gp30/handling/gp30_insertgrenade_02.wav"})

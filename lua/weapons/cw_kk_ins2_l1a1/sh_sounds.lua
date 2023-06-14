@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_FNFAL_FIRE", "weapons/fnfal/fnfal_fp.wav", 1, 105, CHAN_WEAPON)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_FNFAL_FIRE_SUPPRESSED", "weapons/fnfal/fnfal_suppressed_fp.wav", 1, 75, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_FNFAL_FIRE", "weapons/fnfal/fnfal_fp.wav", 1, 105, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_FNFAL_FIRE_SUPPRESSED", "weapons/fnfal/fnfal_suppressed_fp.wav", 1, 75, CHAN_STATIC)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_FNFAL_BOLTBACK", "weapons/fnfal/handling/fnfal_boltback.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_FNFAL_BOLTRELEASE", "weapons/fnfal/handling/fnfal_boltrelease.wav")

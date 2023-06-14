@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_MAKAROV_FIRE", "weapons/makarov/makarov_fp.wav", 1, 105, CHAN_WEAPON)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_MAKAROV_FIRE_SUPPRESSED", "weapons/makarov/makarov_suppressed_fp.wav", 1, 75, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_MAKAROV_FIRE", "weapons/makarov/makarov_fp.wav", 1, 105, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_MAKAROV_FIRE_SUPPRESSED", "weapons/makarov/makarov_suppressed_fp.wav", 1, 75, CHAN_STATIC)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_MAKAROV_BOLTBACK", "weapons/makarov/handling/makarov_boltback.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_MAKAROV_BOLTRELEASE", "weapons/makarov/handling/makarov_boltrelease.wav")

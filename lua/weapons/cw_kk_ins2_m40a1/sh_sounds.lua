@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_M40A1_FIRE", "weapons/m40a1/m40a1_fp.wav", 1, 105, CHAN_WEAPON)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_M40A1_FIRE_SUPPRESSED", "weapons/m40a1/m40a1_suppressed_fp.wav", 1, 75, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_M40A1_FIRE", "weapons/m40a1/m40a1_fp.wav", 1, 105, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_M40A1_FIRE_SUPPRESSED", "weapons/m40a1/m40a1_suppressed_fp.wav", 1, 75, CHAN_STATIC)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M40A1_BOLTBACK", "weapons/m40a1/handling/m40a1_boltback.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M40A1_BOLTFORWARD", "weapons/m40a1/handling/m40a1_boltforward.wav")

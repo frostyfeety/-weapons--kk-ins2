@@ -8,12 +8,12 @@ function SWEP:AdjustMouseSensitivity()
 	local mod = math.Clamp(self.OverallMouseSens, 0.1, 1) -- not lower than 10% and not higher than 100% (in case someone uses atts that increase handling)
 	local freeAimMod = 1
 
-	if self.freeAimOn and not self.dt.BipodDeployed then
+	--[[if self.freeAimOn and not self.dt.BipodDeployed then
 		local dist = math.abs(self:getFreeAimDotToCenter())
 
 		local mouseImpendance = GetConVarNumber("cw_freeaim_center_mouse_impendance")
 		freeAimMod = 1 - (mouseImpendance - mouseImpendance * dist)
-	end
+	end]]
 
 	if self.dt.State == CW_RUNNING then
 		if self.RunMouseSensMod then
@@ -53,8 +53,8 @@ local Forward = reg.Angle.Forward
 local RotateAroundAxis = reg.Angle.RotateAroundAxis
 
 function SWEP:CalcView(ply, pos, ang, fov)
-	self.freeAimOn = self:isFreeAimOn()
-	self.autoCenterFreeAim = GetConVarNumber("cw_freeaim_autocenter") > 0
+	--self.freeAimOn = self:isFreeAimOn()
+	--self.autoCenterFreeAim = GetConVarNumber("cw_freeaim_autocenter") > 0
 
 	if self.dt.BipodDeployed then
 		if not self.forceFreeAimOffTime then
@@ -64,13 +64,13 @@ function SWEP:CalcView(ply, pos, ang, fov)
 		self.forceFreeAimOffTime = false
 	end
 
-	if self.freeAimOn then
+	--[[if self.freeAimOn then
 		fov = 90 -- force FOV to 90 when in free aim mode, unfortunately, due to angles getting fucked up when FOV is not 90
 		RunConsoleCommand("fov_desired", 90)
-	end
+	end]]
 
 	-- if we have free aim on, and we are not using a bipod, or we're using a bipod and we have not run out of "free aim time", then we should simulate free aim
-	if self.freeAimOn and (not self.forceFreeAimOffTime or CurTime() < self.forceFreeAimOffTime) then
+	--[[if self.freeAimOn and (not self.forceFreeAimOffTime or CurTime() < self.forceFreeAimOffTime) then
 		local aiming = self.dt.State == CW_AIMING
 
 		if self.shouldUpdateAngles then
@@ -161,7 +161,7 @@ function SWEP:CalcView(ply, pos, ang, fov)
 		ang = ang
 	else
 		self.shouldUpdateAngles = true
-	end
+	end]]
 
 	FT, CT = FrameTime(), CurTime()
 
@@ -263,13 +263,13 @@ function SWEP:CalcView(ply, pos, ang, fov)
 		self.CurFOVMod = LerpCW20(FT * 10, self.CurFOVMod, 0)
 	end
 
-	if self.holdingBreath then
+	--[[if self.holdingBreath then
 		self.BreathFOVModifier = math.Approach(self.BreathFOVModifier, 7, FT * 12)
 	else
 		self.BreathFOVModifier = math.Approach(self.BreathFOVModifier, 0, FT * 10)
 	end
 
-	fov = math.Clamp(fov - self.CurFOVMod - self.BreathFOVModifier, 5, 90)
+	fov = math.Clamp(fov - self.CurFOVMod - self.BreathFOVModifier, 5, 90)]]
 
 	if self.Owner then
 		if self.ViewbobEnabled and self._vmCamAttach < 1 then

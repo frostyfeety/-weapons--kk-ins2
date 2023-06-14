@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_M249_FIRE", "weapons/m249/m249_fp.wav", 1, 105, CHAN_WEAPON)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_M249_FIRE_SUPPRESSED", "weapons/m249/m249_suppressed_fp.wav", 1, 75, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_M249_FIRE", "weapons/m249/m249_fp.wav", 1, 105, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_M249_FIRE_SUPPRESSED", "weapons/m249/m249_suppressed_fp.wav", 1, 75, CHAN_STATIC)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M249_ARMMOVEMENT1", "weapons/m249/handling/m249_armmovement_01.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M249_ARMMOVEMENT2", "weapons/m249/handling/m249_armmovement_01.wav")

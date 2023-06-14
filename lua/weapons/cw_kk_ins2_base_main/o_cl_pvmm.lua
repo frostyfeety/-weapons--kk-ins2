@@ -30,7 +30,7 @@ function SWEP:applyOffsetToVM()
 	local pos = EyePos()
 	local ang
 
-	if self.freeAimOn and (self.freeAimOn and not self.dt.BipodDeployed) then
+	--[[if self.freeAimOn and (self.freeAimOn and not self.dt.BipodDeployed) then
 		-- take FOV changes into account (including the breath FOV modifier, but excluding the 'continuous fire' FOV modifier)
 		local fovDiff = math.Clamp(60 / (self.ViewModelFOV - self.BreathFOVModifier * 0.5), -math.huge, math.huge)
 
@@ -58,7 +58,7 @@ function SWEP:applyOffsetToVM()
 		ang = eyeAngles
 	else -- if we're not using free aim, fall back to 'virtual' eye angles
 		ang = EyeAngles()
-	end
+	end]]
 
 	if self.InstantDissapearOnAim and self.dt.State == CW_AIMING then
 		self.ViewModelFOV = 90
