@@ -126,6 +126,26 @@ function SWEP:PrimaryAttack()
 	end
 
 	self.Owner:SetAnimation(PLAYER_ATTACK1)
+	
+		local trace = self.Owner:GetEyeTrace()
+    
+    if trace.HitPos:Distance(self.Owner:GetShootPos()) <= 50 then
+        if trace.MatType == MAT_GLASS or trace.MatType == MAT_PLASTIC or trace.MatType == MAT_WOOD or trace.MatType == MAT_CONCRETE or trace.MatType == MAT_DIRT or trace.MatType == MAT_METAL  or trace.MatType == MAT_GRASS and not trace.Entity:IsPlayer() then
+            if trace.MatType == MAT_CONCRETE  or  trace.MatType == MAT_DIRT then    
+                self.Weapon:EmitSound("physics/concrete/concrete_impact_hard".. math.random(1, 3).. ".wav")
+            elseif trace.MatType == MAT_WOOD then
+                self.Weapon:EmitSound("physics/wood/wood_box_impact_hard".. math.random(1, 3).. ".wav")
+            elseif trace.MatType == MAT_METAL then 
+                self.Weapon:EmitSound("physics/metal/metal_barrel_impact_hard".. math.random(1, 3).. ".wav")
+            else
+                self.Weapon:EmitSound("physics/plastic/plastic_box_impact_hard".. math.random(1, 3).. ".wav")
+            end
+        else
+            self.Weapon:EmitSound("physics/body/body_medium_impact_soft".. math.random(1, 7).. ".wav")
+        end
+    else
+        self.Weapon:EmitSound("npc/zombie/claw_miss".. math.random(1, 2).. ".wav")
+    end
 
 	if IsFirstTimePredicted() then
 		self:sendWeaponAnim("base_fire",1,0)
