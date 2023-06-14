@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_M590_FIRE", "weapons/m590/m590_fp.wav", 1, 105, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_M590_FIRE_SUPPRESSED", "weapons/m590/m590_suppressed_fp.wav", 1, 75, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_M590_FIRE", "weapons/m590/m590_fp.wav", 1, 105, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_M590_FIRE_SUPPRESSED", "weapons/m590/m590_suppressed_fp.wav", 1, 75, CHAN_WEAPON)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M590_EMPTY", "weapons/m590/handling/m590_empty.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M590_PUMPBACK", "weapons/m590/handling/m590_pumpback.wav")

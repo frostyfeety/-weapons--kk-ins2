@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_D_RPK_FIRE", "weapons/cw_kk_ins2_f_rpk/rpk_fp.wav", 1, 100, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_D_RPK_FIRE_SUPPRESSED", "weapons/cw_kk_ins2_f_rpk/rpk_suppressed_fp.wav", 1, 70, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_D_RPK_FIRE", "weapons/cw_kk_ins2_f_rpk/rpk_fp.wav", 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_D_RPK_FIRE_SUPPRESSED", "weapons/cw_kk_ins2_f_rpk/rpk_suppressed_fp.wav", 1, 70, CHAN_WEAPON)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_D_RPK_BIPODDEPLOY", "weapons/cw_kk_ins2_f_rpk/handling/rpk_bipoddeploy.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_D_RPK_BIPODRETRACT", "weapons/cw_kk_ins2_f_rpk/handling/rpk_bipodretract.wav")

@@ -373,7 +373,7 @@ local FAS_FSS = {}
 
 
 
-local tbl = {channel = CHAN_STATIC,
+local tbl = {channel = CHAN_WEAPON,
 	volume = 1,
 	level = 100,
 	pitchstart = 92,
@@ -394,7 +394,7 @@ for k, v in pairs(FAS_FS) do
 	end
 end	
 
-local tbl = {channel = CHAN_STATIC,
+local tbl = {channel = CHAN_WEAPON,
 	volume = 1,
 	level = 70,
 	pitchstart = 92,

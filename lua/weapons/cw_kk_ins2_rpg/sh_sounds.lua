@@ -1,4 +1,4 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_FIRE", "weapons/rpg7/rpg7_fp.wav", 1, 105, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_FIRE", "weapons/rpg7/rpg7_fp.wav", 1, 105, CHAN_WEAPON)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_RPG_ENDGRAP", "weapons/rpg7/handling/rpg7_endgrab.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_RPG_FETCH", "weapons/rpg7/handling/rpg7_fetch.wav")

@@ -30,11 +30,11 @@ CustomizableWeaponry:addFireSound("CW_KK_INS2_MOLOTOV_ENT_DETONATE", "weapons/mo
 
 CustomizableWeaponry:addFireSound("CW_KK_INS2_M18_ENT_DETONATE", "weapons/m18/m18_detonate.wav")
 
-CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE", {"weapons/at4/at4rpg_detonate_01.wav", "weapons/at4/at4rpg_detonate_02.wav", "weapons/at4/at4rpg_detonate_03.wav"}, 1, 100, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_D1", {"weapons/at4/at4rpg_detonate_dist_01.wav", "weapons/at4/at4rpg_detonate_dist_02.wav", "weapons/at4/at4rpg_detonate_dist_03.wav"}, 1, 100, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_D2", {"weapons/at4/at4rpg_detonate_far_dist_01.wav", "weapons/at4/at4rpg_detonate_far_dist_02.wav", "weapons/at4/at4rpg_detonate_far_dist_03.wav"}, 1, 100, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_WATER", {"weapons/at4/water/at4rpg_water_detonate_01.wav", "weapons/at4/water/at4rpg_water_detonate_02.wav", "weapons/at4/water/at4rpg_water_detonate_03.wav"}, 1, 100, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_WATER_D1", {"weapons/at4/water/at4rpg_water_detonate_dist_01.wav", "weapons/at4/water/at4rpg_water_detonate_dist_02.wav", "weapons/at4/water/at4rpg_water_detonate_dist_03.wav"}, 1, 100, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE", {"weapons/at4/at4rpg_detonate_01.wav", "weapons/at4/at4rpg_detonate_02.wav", "weapons/at4/at4rpg_detonate_03.wav"}, 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_D1", {"weapons/at4/at4rpg_detonate_dist_01.wav", "weapons/at4/at4rpg_detonate_dist_02.wav", "weapons/at4/at4rpg_detonate_dist_03.wav"}, 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_D2", {"weapons/at4/at4rpg_detonate_far_dist_01.wav", "weapons/at4/at4rpg_detonate_far_dist_02.wav", "weapons/at4/at4rpg_detonate_far_dist_03.wav"}, 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_WATER", {"weapons/at4/water/at4rpg_water_detonate_01.wav", "weapons/at4/water/at4rpg_water_detonate_02.wav", "weapons/at4/water/at4rpg_water_detonate_03.wav"}, 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_RPG_ENT_DETONATE_WATER_D1", {"weapons/at4/water/at4rpg_water_detonate_dist_01.wav", "weapons/at4/water/at4rpg_water_detonate_dist_02.wav", "weapons/at4/water/at4rpg_water_detonate_dist_03.wav"}, 1, 100, CHAN_WEAPON)
 
 CustomizableWeaponry:addFireSound("CW_KK_INS2_C4_ENT_DETONATE", {"weapons/c4/c4_detonate_01.wav", "weapons/c4/c4_detonate_02.wav", "weapons/c4/c4_detonate_03.wav"})
 CustomizableWeaponry:addFireSound("CW_KK_INS2_C4_ENT_DETONATE_D1", {"weapons/c4/c4_detonate_dist_01.wav", "weapons/c4/c4_detonate_dist_02.wav", "weapons/c4/c4_detonate_dist_03.wav"})
