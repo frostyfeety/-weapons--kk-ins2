@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_D_AK74_FIRE", "weapons/cw_kk_ins2_f_ak74/ak74_fp.wav", 1, 100, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_D_AK74_FIRE_SUPPRESSED", "weapons/cw_kk_ins2_f_ak74/ak74_suppressed_fp.wav", 1, 70, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_D_AK74_FIRE", "weapons/cw_kk_ins2_f_ak74/ak74_fp.wav", 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_D_AK74_FIRE_SUPPRESSED", "weapons/cw_kk_ins2_f_ak74/ak74_suppressed_fp.wav", 1, 70, CHAN_WEAPON)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_D_AK74_BOLTBACK", "weapons/cw_kk_ins2_f_ak74/handling/ak74_boltback.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_D_AK74_BOLTRELEASE", "weapons/cw_kk_ins2_f_ak74/handling/ak74_boltrelease.wav")

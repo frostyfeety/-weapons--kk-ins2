@@ -1,5 +1,5 @@
-CustomizableWeaponry:addFireSound("CW_KK_INS2_MK18_FIRE", "weapons/mk18/mk18_fp.wav", 1, 105, CHAN_STATIC)
-CustomizableWeaponry:addFireSound("CW_KK_INS2_MK18_FIRE_SUPPRESSED", "weapons/mk18/mk18_suppressed_fp.wav", 1, 75, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_MK18_FIRE", "weapons/mk18/mk18_fp.wav", 1, 105, CHAN_WEAPON)
+CustomizableWeaponry:addFireSound("CW_KK_INS2_MK18_FIRE_SUPPRESSED", "weapons/mk18/mk18_suppressed_fp.wav", 1, 75, CHAN_WEAPON)
 
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_MK18_BOLTBACK", "weapons/mk18/handling/mk18_boltback.wav")
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_MK18_BOLTRELEASE", "weapons/mk18/handling/mk18_boltrelease.wav")

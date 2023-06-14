@@ -10,7 +10,7 @@ FAS_RS["FAS2_QuikClot.Loosen"] = "weapons/ifak/quikclot_loosen.wav"
 FAS_RS["FAS2_QuikClot.Open"] = "weapons/ifak/quikclot_open.wav"
 FAS_RS["FAS2_QuikClot.Retrieve"] = "weapons/ifak/quikclot_retrieve.wav"
 
-local tbl = {channel = CHAN_STATIC,
+local tbl = {channel = CHAN_WEAPON,
 	volume = 1,
 	soundlevel = 50,
 	pitchstart = 100,
