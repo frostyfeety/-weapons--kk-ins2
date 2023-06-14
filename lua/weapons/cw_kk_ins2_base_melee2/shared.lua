@@ -5,8 +5,8 @@ AddCSLuaFile()
 AddCSLuaFile("weapons/cw_extrema_ratio_official/shared.lua")
 AddCSLuaFile("weapons/cw_melee_base/shared.lua")
 
-include("weapons/cw_extrema_ratio_official/shared.lua")
-include("weapons/cw_melee_base/shared.lua")
+--include("weapons/cw_extrema_ratio_official/shared.lua")
+--include("weapons/cw_melee_base/shared.lua")
 
 SWEP.KKINS2Melee = true
 
