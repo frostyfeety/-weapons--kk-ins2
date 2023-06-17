@@ -33,7 +33,7 @@ SWEP.Sounds = {
 		{time = 23/30, sound = "CW_KK_INS2_RPK74M_MAGOUT"},
 		{time = 35/30, sound = "CW_KK_INS2_RPK74M_MAGOUTRATTLE"},
 		{time = 50/30, sound = "CW_KK_INS2_RPK74M_FETCHMAG"},
-		{time = 97/30, sound = "CW_KK_INS2_RPK74M_MAGIN"},
+		{time = 80/30, sound = "CW_KK_INS2_RPK74M_MAGIN"},
 		{time = 122/30, sound = "CW_KK_INS2_RPK74M_RATTLE"},
 	},
 
@@ -42,10 +42,10 @@ SWEP.Sounds = {
 		{time = 23/30, sound = "CW_KK_INS2_RPK74M_MAGOUT"},
 		{time = 35/30, sound = "CW_KK_INS2_RPK74M_MAGOUTRATTLE"},
 		{time = 50/30, sound = "CW_KK_INS2_RPK74M_FETCHMAG"},
-		{time = 97/30, sound = "CW_KK_INS2_RPK74M_MAGIN"},
-		{time = 122/30, sound = "CW_KK_INS2_RPK74M_RATTLE"},
-		{time = 146/30, sound = "CW_KK_INS2_RPK74M_BOLTBACK"},
-		{time = 153/30, sound = "CW_KK_INS2_RPK74M_BOLTRELEASE"},
+		{time = 80/30, sound = "CW_KK_INS2_RPK74M_MAGIN"},
+		{time = 97/30, sound = "CW_KK_INS2_RPK74M_RATTLE"},
+		{time = 110/30, sound = "CW_KK_INS2_RPK74M_BOLTBACK"},
+		{time = 120/30, sound = "CW_KK_INS2_RPK74M_BOLTRELEASE"},
 	},
 
 	iron_dryfire = {
