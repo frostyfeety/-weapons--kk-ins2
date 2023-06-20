@@ -4,7 +4,7 @@ CustomizableWeaponry:addFireSound("CW_KK_INS2_M16A4_FIRE_SUPPRESSED", "weapons/m
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_BOLTBACK", "weapons/m16a4/handling/m16_boltback.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_BOLTRELEASE", "weapons/m16a4/handling/m16_boltrelease.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_EMPTY", "weapons/m16a4/handling/m16_empty.wav", 1, 100, CHAN_WEAPON)
-CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_FIRESELECT", "weapons/m16a4/handling/m16_fireselect.wav"), 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_FIRESELECT", "weapons/m16a4/handling/m16_fireselect.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_HIT", "weapons/m16a4/handling/m16_hit.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_MAGHITRELEASE", "weapons/m16a4/handling/m16_maghitrelease.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M16A4_MAGIN", "weapons/m16a4/handling/m16_magin.wav", 1, 100, CHAN_WEAPON)
