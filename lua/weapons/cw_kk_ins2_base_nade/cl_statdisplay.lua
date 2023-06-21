@@ -339,6 +339,6 @@ if CLIENT then
 	end
 end
 
-CustomizableWeaponry.interactionMenu:addTab(tab)
+--CustomizableWeaponry.interactionMenu:addTab(tab)
 
 SWEP.CustomizationTabOverride = tab.id
