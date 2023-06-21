@@ -5,7 +5,7 @@ CustomizableWeaponry:addReloadSound("CW_KK_INS2_GRACH_BOLTBACK", "weapons/cw_kk_
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_GRACH_BOLTRELEASE", "weapons/cw_kk_ins2_grach/handling/grach_boltrelease.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M9_EMPTY", "weapons/m9/handling/m9_empty.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M9_MAGHIT", "weapons/m9/handling/m9_maghit.wav", 1, 100, CHAN_WEAPON)
-CustomizableWeaponry:addReloadSound("CW_KK_INS2_GRACH_MAGIN", "weapons/cw_kk_ins2_grach/handling/grach_magin.wav"), 1, 100, CHAN_WEAPON)
+CustomizableWeaponry:addReloadSound("CW_KK_INS2_GRACH_MAGIN", "weapons/cw_kk_ins2_grach/handling/grach_magin.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_GRACH_MAGOUT", "weapons/cw_kk_ins2_grach/handling/grach_magout.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M9_MAGRELEASE", "weapons/m9/handling/m9_magrelease.wav", 1, 100, CHAN_WEAPON)
 CustomizableWeaponry:addReloadSound("CW_KK_INS2_M9_SAFETY", "weapons/m9/handling/m9_safety.wav", 1, 100, CHAN_WEAPON)
